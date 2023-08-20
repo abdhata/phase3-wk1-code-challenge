@@ -1,3 +1,5 @@
+# Challenge 1: 12-hour time to 24-hour time Convertor
+
 def convert_to_24_hour(hour, minute, period):
     if period == "am":
         if hour == 12:
@@ -9,6 +11,7 @@ def convert_to_24_hour(hour, minute, period):
     return f"{hour:02d}{minute:02d}"
 pass
 
+# Challenge 2: Exactly two positive numbers
 
 def exactly_two_positive(a, b, c):
     positive_count = 0
@@ -23,6 +26,7 @@ def exactly_two_positive(a, b, c):
     return positive_count == 2
 pass
 
+# Challenge 3: Consonant value calculator
 
 def solve(s):
     consonant_values = []
