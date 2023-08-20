@@ -11,6 +11,8 @@ def convert_to_24_hour(hour, minute, period):
     return f"{hour:02d}{minute:02d}"
 pass
 
+
+
 # Challenge 2: Exactly two positive numbers
 
 def exactly_two_positive(a, b, c):
@@ -24,7 +26,13 @@ def exactly_two_positive(a, b, c):
         positive_count += 1
     
     return positive_count == 2
+
+# Examples
+print(exactly_two_positive(3, -5, 8))   # True
+print(exactly_two_positive(-2, 9, -1))   # False
 pass
+
+
 
 # Challenge 3: Consonant value calculator
 
